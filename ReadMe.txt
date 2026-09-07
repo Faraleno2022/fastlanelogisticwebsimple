@@ -1,20 +1,27 @@
-Comment cracker Windows 7/8/10 et Office avec KMSpico
-------------------------------------------------------------------------------
-ETAPE 1 : DÈcompressez l'archive KMSpico2019.zip avec WinRar si vous líavez.
-Mot de passe KMSpico : ´ www-kms.com ª (Níest pas copiez avec  ´ª et sans espace)
-ETAPE 2 : ExÈcutez le programme (KMSpico-setup.EXE)
-ETAPE 3 : Apres installation, Lancer AutoPico ‡ partir du Menu dÈmarrer puis Autoriser líapplication ‡ síexÈcuter.
-ETAPE 3 : Sur la Nouvelle fenÍtre qui apparaÓt, cliquez sur le bouton rouge pour Cracker Windows et Office. Vous devriez normalement entendre un son ´ Program complet ª, cíest pour vous signaler simplement que KMSpico a craquÈ les produits Windows et Office.
-ETAPE 4 : Cíest tout. Vous venez díinstaller et cracker Windows et Office gratuitement avec KMSpico pendant une pÈriode de 180 jours
+FASTLANE LOGISTIC ‚Äî SITE VITRINE
 
+Site statique en fran√ßais : transport minier, marchandises et logistique en Guin√©e.
+Domaine principal : https://www.fastlanelogisticgn.com/
 
-How to crack Windows 7/8/10 and Office with KMSpico
--------------------------------------------------------------------------
+Pages : index.html, a-propos.html, pourquoi-nous.html, appels-offres.html, contact.html.
+Styles partag√©s : styles.css. Interactions : script.js.
+Les photos WebP et leurs variantes mobiles sont dans images/ ; les originaux sont conserv√©s.
 
----> STEP 1: Unpack the KMSpico2019.zip archive with WinRar if you have it.
-KMSpico password : " www-kms.com " (Do not copy with "" and no space)
----> STEP 2: Run the program (KMSpico-setup.EXE)
----> STEP 3: After installation, Launch AutoPico from the Start Menu and then Allow the application to run.
----> STEP 3: On the New Window that appears, click the red button for Cracker Windows and Office. You should normally hear a "Full Program" sound, just to let you know that KMSpico has cracked Windows and Office products.
----> STEP 4: That's all. You have just installed and cracked Windows and Office for free with KMSpico for a period of 180 days
+SEO
+Chaque page contient un titre, une description, une URL canonique et des donn√©es structur√©es.
+robots.txt indique le sitemap.xml, qui r√©f√©rence les cinq URL canoniques.
+Apr√®s publication, soumettre https://www.fastlanelogisticgn.com/sitemap.xml dans Google Search Console.
+La publication du sitemap ne garantit pas l'indexation ni une position dans les r√©sultats.
 
+CONTACT
+Le formulaire ouvre la messagerie du visiteur avec un e-mail pr√©rempli.
+Le visiteur doit envoyer le message depuis sa messagerie ; aucun serveur de formulaires n'est configur√©.
+
+RENDER
+D√©p√¥t : Faraleno2022/fastlanelogisticwebsimple, branche main.
+Site statique, commande de build vide, r√©pertoire publi√© : .
+Les commits pouss√©s sur main d√©clenchent le d√©ploiement automatique configur√© dans Render.
+La validation du domaine et du certificat HTTPS se fait dans Custom Domains.
+
+APER√áU LOCAL
+Servir ce dossier avec un serveur HTTP statique et ouvrir sa racine dans le navigateur.
