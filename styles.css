@@ -3560,3 +3560,54 @@ html:not(.js-enabled) [data-contact-form] > .btn { display: none; }
   background: rgba(255, 255, 255, .17);
   border-color: rgba(255, 255, 255, .7);
 }
+
+
+/* Header social icons follow the phone number on every viewport. */
+.topbar .topbar-contacts {
+  display: flex;
+  min-width: 0;
+  gap: 16px;
+}
+.topbar-contacts > a[href^="tel:"] { white-space: nowrap; }
+.topbar-socials {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.topbar-social-link {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, .07);
+  transition: background var(--transition), border-color var(--transition);
+}
+.topbar-social-link img {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) invert(1);
+}
+.topbar-social-link:hover {
+  background: rgba(255, 255, 255, .2);
+  border-color: rgba(255, 255, 255, .6);
+}
+@media (max-width: 1080px) {
+  .topbar-contacts > a[href^="mailto:"] { display: none; }
+}
+@media (max-width: 900px) {
+  .topbar-inner { justify-content: space-between; }
+}
+@media (max-width: 640px) {
+  html { scroll-padding-top: 130px; }
+  .topbar { height: 44px; }
+  .topbar .topbar-contacts { width: 100%; justify-content: space-between; gap: 12px; }
+  .topbar .topbar-group:not(.topbar-contacts) { display: none; }
+  .topbar-contacts > a[href^="tel:"] { display: inline-flex; min-height: 44px; align-items: center; font-size: .875rem; }
+  .topbar-social-link { width: 36px; height: 36px; }
+  .topbar-social-link img { width: 18px; height: 18px; }
+  .nav-menu { height: calc(100vh - 120px); height: calc(100dvh - 120px); }
+}
